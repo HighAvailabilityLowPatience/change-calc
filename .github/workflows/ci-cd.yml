@@ -37,5 +37,5 @@ jobs:
     - name: Build Docker image
       run: docker build -t grout2026/web102-change-calculator:latest .
 
-      - name: Push Docker image
-  run: docker push grout2026/web102-change-calculator:latest
+    - name: Push Docker image
+    run: docker push grout2026/web102-change-calculator:latest
